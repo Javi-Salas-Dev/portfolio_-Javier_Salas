@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+<! DOCTYPE html >
+< html  lang = " es " >
 
-You can use the [editor on GitHub](https://github.com/Javi-Salas-Dev/portfolio_Javier_Salas/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+< cabeza >
+    < meta  charset = " UTF-8 " >
+    < meta  http-equiv = " X-UA-Compatible " content = " IE = edge " >
+    < meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " >
+    < link  rel = " stylesheet " href = " https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css " >
+    < link  href = " https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap " rel = " hoja de estilo " >
+    < link  href = " https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap " rel = " hoja de estilo " >
+    < link  rel = " stylesheet " href = " css / profile.css " >
+    < link  rel = " stylesheet " href = " css / main.css " >
+    < link  rel = " stylesheet " href = " css / navbar.css " >
+    < script  defer  src = " js / app.js " > </ script >
+    < título > Javier Salas </ título >
+</ cabeza >
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+< cuerpo >
+    < header  class = " topheader " >
+        < nav  class = " topnav " >
+            < Un  href = "" clase = " logo " >
+                < img  src = " images / foto_perfil.png " alt = " programador " height = " 50px " width = " 50px " >
+                < div >
+                    Javier Salas < br > {code}
+                </ div >
+            </ a >
+            < button  class = " open_menu " aria-label = " Abrir menú " >
+                < img  src = " images / open_menu.svg " alt = " Abrir menú " height = " 40px " >
+            </ botón >
+            < ul  class = " menú " >
+                < button  class = " close_menu " aria-label = " Cerrar menú " >
+                    < img  src = " images / close_menu.svg " alt = " Cerrar menú " height = " 30px " width = " 40px " >
+                </ botón >
+                < Li > < un  href = " #Perfil " clase =" seleccionado " > Perfil </ una > </ li >
+                < Li > < un  href = " #Perfil " > Experiencia </ una > </ li >
+                < Li > < un  href = " #Perfil " > Habilidades </ una > </ li >
+                < Li > < un  href = " #Perfil " > Contacto </ una > </ li >
+            </ ul >
+        </ nav >
+    </ encabezado >
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    < div  class = " relleno-horizontal-relleno-vertical " >
+        < section  class = " perfil " >
+            < div  class = " profile_info " >
+                < H1  clase = " profile_tittle " > Hola, soy < br > Javier Salas </ h1 >
+                < p  class = " profile_details " > Un Apasionado por la tecnología, el desarrollo y la innovación. Siempre dispuesto a la toma
+                de nuevos desafios y retos que en el desarrollo front end pueden presentarse.
+                </ p >
+                < button  class = " profile_btn " > Descargar cv </ button >
+            </ div >
+            < span  class = " profile_img_section " >
+                < img  class = " img_profile " src = " images / foto_perfil.png " alt = " Programador " width = " 100% " >
+                < div  class = " profile_img_line " > </ div >
+            </ span >
+        </ sección >
+    </ div >
+</ cuerpo >
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Javi-Salas-Dev/portfolio_Javier_Salas/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</ html >
