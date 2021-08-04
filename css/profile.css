@@ -59,6 +59,9 @@
     filter: brightness(130%);
 }
 
+
+/* Escritorio */
+
 @media (min-width: 950px){
     
     .img_profile{
