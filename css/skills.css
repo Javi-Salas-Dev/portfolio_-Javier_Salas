@@ -1,0 +1,55 @@
+.skills{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.skills_title{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.skills_skill{
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(131, 79, 79, 0.25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.skills_list{
+    list-style: none;
+    padding: 0;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* ESCRITORIO */
+
+@media (min-width: 950px) {
+
+    .skills_title{
+        font-size: 50px;
+    }
+    
+    .skills_skill{
+        font-size: 25px;
+        margin: 20px;
+    }
+    
+    .skills_list{
+        list-style: none;
+        padding: 0;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
