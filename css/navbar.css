@@ -1,10 +1,11 @@
 .topheader{
     box-shadow: 0 4px 5px var(--navbar-shadow-color);
-    /* position: fixed;
+    position: fixed;
     background-color: var(--theme-color);
     left: 0;
-    top: 0; */
-
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .topnav{
