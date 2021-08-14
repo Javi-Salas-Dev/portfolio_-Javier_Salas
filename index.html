@@ -13,7 +13,11 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/experiences.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
     <script defer src="js/app.js"></script>
+    <!-- font awesome icons -->
+    <script src="https://kit.fontawesome.com/a93c8476c3.js" crossorigin="anonymous"></script>
+
     <title>Javier Salas</title>
 </head>
 
@@ -36,7 +40,7 @@
                 <li><a href="#perfil" class="selected">Perfil</a></li>
                 <li><a href="#experience">Experiencia</a></li>
                 <li><a href="#skill">Habilidades</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contacts">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -124,6 +128,52 @@
         </section>
     </div>
 
+    <section class="contact" id="contacts">
+        <h2 class="contact-title">Contacto</h2>
+        <div class="contact-wrapper">
+        <div class="contact-form">
+            <form action="">
+                <p>
+                    <label for="Fullname">Nombre Completo</label>
+                    <input type="text" name="fullname">
+                </p>
+                <p>
+                    <label for="">Email</label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label for="Phone">Teléfono</label>
+                    <input type="tel" name="phone">
+                </p>
+                <p>
+                    <label for="">Asunto</label>
+                    <input type="text" name="asunto">
+                </p>
+                <p>
+                    <label for="Message">Mensaje</label>
+                    <textarea name="message" rows="3"></textarea>
+                </p>
+                <p>
+                    <button type="submit">
+                        Send
+                    </button>
+                </p>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h4>More info</h4>
+            <ul>
+                <li> <i class="fa-solid fa-square-envelope"></i>pradilla</li>
+                <li><i class="fa-solid fa-phone"></i>phone</li>
+                <li><i class="fa-solid fa-location-dot"></i>Location</li>
+            </ul>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus quaerat nesciunt laudantium non nisi, tempore culpa doloremque molestias quas?
+            </p>
+            <p>company.com</p>
+        </div>
+        </div>
+    </section>
 </body>
 
 </html>
